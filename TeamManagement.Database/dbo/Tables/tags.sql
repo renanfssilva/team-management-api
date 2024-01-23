@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[tags]
+(
+    [id] INT NOT NULL IDENTITY(1,1),
+    [name] NVARCHAR(100) NOT NULL,
+    CONSTRAINT [PK_tags] PRIMARY KEY CLUSTERED ([id])
+);
